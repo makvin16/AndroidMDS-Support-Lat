@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">APcards-Support</string>
+    <!-- action bar -->
+    <string name="cBack">Atpakaļ</string>
+    <string name="exit">Iziet</string>
+    <!-- password -->
+    <string name="pText">Lai ieietu, ievadiet savu personīgo paroli:</string>
+    <string name="pHint">Parole</string>
+    <string name="pToast1">Veikals ar šādu paroli neeskistē</string>
+    <!-- create order -->
+    <string name="coText1">Ievadiet čeka summu:</string>
+    <string name="coText2">Ievadiet čeka numuru:</string>
+    <string name="coText3">Skanēt</string>
+    <string name="coToast1">Jūs neesat ievadījis čeka summu</string>
+    <string name="coToast2">Jūs esat atcēlis svītrkodu lasīšanu</string>
+    <!-- scanner barcode -->
+    <string name="coScanText">Nofokusējiet tālruņa kameru uz kartes svītrkoda</string>
+    <!-- result order -->
+    <string name="roText1">Čeka summa:</string>
+    <string name="roText2">Maksājumam:</string>
+    <string name="roTextBtn">Nolasīt:</string>
+    <string name="roText3">Operācija bija veiksmīga!</string>
+    <!-- menu -->
+    <string name="menu1">Skatīt atskaiti</string>
+    <string name="menu2">Uzrakstiet atbalstu</string>
+    <string name="menu3">E-pasts</string>
+    <!-- show report -->
+    <string name="rText1">Kopējā summa par maiņu:</string>
+    <string name="rText2">Atlaide par maiņu:</string>
+    <string name="rText3">Lai samaksātu par maiņu:</string>
+    <string name="rTextBtn">Aizvērt maiņu</string>
+    <!-- archive -->
+    <!-- write to support -->
+    <string name="wsText1">Uzrakstīt atbalstam</string>
+    <string name="wsTextBtn">Nosūtīt</string>
+    <string name="wsTitle">Atbalsts</string>
+    <string name="wsSubject">Atbalsts</string>
+
+    <string name="report">Ziņojums par </string>
+    <string name="sendMail">Sūtīt e-pastu...</string>
+    <string name="toast1">Šāda svītrkodu nav</string>
+    <string name="toast2">Ievadiet tekstu</string>
+    <string name="toast3">Neviens e-pasta klients nav instalēts</string>
+    <string name="toast4">Ne visi lauki ir ievadīti pareizi</string>
+    <string name="toast5">@string/rTextBtn</string>
+
+</resources>

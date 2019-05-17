@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+    <include layout="@layout/action_bar_back" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="30dp">
+
+            <Button
+                android:onClick="clickShowReport"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/background_button1"
+                android:text="@string/menu1"
+                android:textAllCaps="false"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:layout_marginBottom="5dp"/>
+
+            <Button
+                android:onClick="clickSupport"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/background_button1"
+                android:text="@string/menu2"
+                android:textAllCaps="false"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:layout_marginBottom="5dp"/>
+
+            <Button
+                android:onClick="clickAddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/background_button1"
+                android:text="@string/menu3"
+                android:textAllCaps="false"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>
